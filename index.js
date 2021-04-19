@@ -2,8 +2,7 @@ var binwrap = require("binwrap");
 var path = require("path");
 
 var packageInfo = require(path.join(__dirname, "package.json"));
-// const v = packageInfo.version.replace(/-[0-9]+/, '')
-const v = "0.13.2"
+const v = packageInfo.version.replace(/-[0-9]+/, '')
 const root = `https://dist.ipfs.io/ipfs-cluster-service/v${v}/ipfs-cluster-service_v${v}_`
 
 module.exports = binwrap({

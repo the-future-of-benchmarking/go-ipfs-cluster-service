@@ -1,6 +1,6 @@
 {
   "name": "@the-future-of-benchmarking/go-ipfs-cluster-service",
-  "version": "1.0.1",
+  "version": "0.13.2",
   "description": "Install go-ipfs-cluster-service",
   "preferGlobal": true,
   "main": "index.js",
