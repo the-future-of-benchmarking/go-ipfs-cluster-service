@@ -1,6 +1,6 @@
 {
-  "name": "go-ipfs-cluster-service",
-  "version": "1.0.0",
+  "name": "@the-future-of-benchmarking/go-ipfs-cluster-service",
+  "version": "1.0.1",
   "description": "Install go-ipfs-cluster-service",
   "preferGlobal": true,
   "main": "index.js",
@@ -15,6 +15,10 @@
     "index.js",
     "bin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-future-of-benchmarking/go-ipfs-cluster-service.git"
+  },
   "bin": {
     "go-ipfs-cluster-service": "bin/ipfs-cluster-service"
   },
@@ -22,6 +26,6 @@
     "binwrap": "^0.2.3"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@lukvonstrom"
+    "registry": "https://npm.pkg.github.com/@the-future-of-benchmarking"
   }
 }
