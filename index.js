@@ -5,11 +5,11 @@ var packageInfo = require(path.join(__dirname, "package.json"));
 const v = packageInfo.version.replace(/-[0-9]+/, '')
 const root = `https://dist.ipfs.io/ipfs-cluster-service/v${v}/ipfs-cluster-service_v${v}_`
 
+let binaries = process.platform === "win32" ? ['ipfs-cluster-service.exe'] : ['ipfs-cluster-service'];
+
 module.exports = binwrap({
   dirname: __dirname,
-  binaries: [
-    'ipfs-cluster-service'
-  ],
+  binaries,
   urls: {
     'darwin-x64': root + 'darwin-amd64.tar.gz',
 
