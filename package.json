@@ -20,5 +20,8 @@
   },
   "dependencies": {
     "binwrap": "^0.2.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@lukvonstrom"
   }
 }
