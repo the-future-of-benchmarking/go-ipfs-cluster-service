@@ -1,0 +1,24 @@
+{
+  "name": "go-ipfs-cluster-service",
+  "version": "1.0.0",
+  "description": "Install go-ipfs-cluster-service",
+  "preferGlobal": true,
+  "main": "index.js",
+  "scripts": {
+    "install": "binwrap-install",
+    "prepare": "binwrap-prepare",
+    "test": "binwrap-test",
+    "prepublish": "npm test"
+  },
+  "license": "BSD-3-Clause",
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "bin": {
+    "go-ipfs-cluster-service": "bin/ipfs-cluster-service"
+  },
+  "dependencies": {
+    "binwrap": "^0.2.3"
+  }
+}
