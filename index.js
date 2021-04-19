@@ -10,7 +10,6 @@ module.exports = binwrap({
   binaries: [
     'ipfs-cluster-service'
   ],
-  binariesPath: 'ipfs-cluster-service',
   urls: {
     'darwin-x64': root + 'darwin-amd64.tar.gz',
 

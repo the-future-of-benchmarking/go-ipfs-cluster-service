@@ -10,7 +10,7 @@
     "test": "binwrap-test",
     "prepublish": "npm test"
   },
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "files": [
     "index.js",
     "bin"
